@@ -1,0 +1,38 @@
+div { 
+    margin: 8px 32px 32px 16px;
+    padding-top: 50px 30px 50px 80px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.Class11{
+    color:red;
+}
+.Class2{
+    height: 75px;
+    width: 75px;
+    border: solid;
+    color: #000;
+    }
+.Class2:hover {
+    color:purple;
+    }
+.Class31 {
+    height: 50px;
+    width: 250px;
+}
+.Class32 {
+    height: 25px;
+    width: 62px;
+    margin: 10px 100px;
+}
+h1::before{
+    content: "Beforetext";
+    margin-right: 8px;
+}
+h1::After{
+    content: "Aftertext";
+    margin-left: 8px;
+}
+
+h1{
+    text-align: center;
+}
